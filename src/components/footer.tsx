@@ -1,6 +1,7 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Container } from "./container"
-import { Heart, Github, Instagram } from "lucide-react"
+import { Github, Instagram } from "lucide-react"
 import { Separator } from "@/components/ui/separator"
 
 export function Footer() {
@@ -10,10 +11,14 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-linear-to-br from-pink-500 to-rose-600">
-                <Heart className="h-4 w-4 text-white" fill="white" />
-              </div>
-              <span className="font-bold bg-linear-to-r from-pink-600 to-rose-600 bg-clip-text text-transparent">
+              <Image 
+                src="/images/sync_love-no-bg.png" 
+                alt="Sync Love" 
+                width={372} 
+                height={247}
+                className="h-6 w-auto"
+              />
+              <span className="font-bold text-primary">
                 Sync Love
               </span>
             </div>
@@ -30,11 +35,11 @@ export function Footer() {
                   Recursos
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#precos" className="text-muted-foreground hover:text-foreground">
                   Preços
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="#" className="text-muted-foreground hover:text-foreground">
                   Download
@@ -59,7 +64,7 @@ export function Footer() {
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="mb-4 text-sm font-semibold">Social</h3>
             <div className="flex space-x-4">
               <Link href="#" className="text-muted-foreground hover:text-foreground">
@@ -69,7 +74,7 @@ export function Footer() {
                 <Github className="h-5 w-5" />
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <Separator className="my-8" />

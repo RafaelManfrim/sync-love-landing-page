@@ -1,18 +1,22 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Container } from "./container"
-import { Heart } from "lucide-react"
 
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
       <Container>
         <div className="flex h-16 items-center justify-between">
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-linear-to-br from-pink-500 to-rose-600">
-              <Heart className="h-6 w-6 text-white" fill="white" />
-            </div>
-            <span className="text-xl font-bold bg-linear-to-r from-pink-600 to-rose-600 bg-clip-text text-transparent">
+          <Link href="/" className="flex items-center space-x-3">
+            <Image 
+              src="/images/sync_love-no-bg.png" 
+              alt="Sync Love" 
+              width={372} 
+              height={247}
+              className="h-10 w-auto"
+            />
+            <span className="text-xl font-bold text-primary">
               Sync Love
             </span>
           </Link>
@@ -30,16 +34,16 @@ export function Header() {
             >
               Como Funciona
             </Link>
-            <Link
+            {/* <Link
               href="#precos"
               className="transition-colors hover:text-foreground/80 text-foreground/60"
             >
               Preços
-            </Link>
+            </Link> */}
           </nav>
 
-          <Button className="bg-linear-to-r from-pink-600 to-rose-600 hover:from-pink-700 hover:to-rose-700">
-            Download
+          <Button className="bg-primary hover:bg-primary/90">
+            Baixar
           </Button>
         </div>
       </Container>

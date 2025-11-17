@@ -23,13 +23,13 @@ export function Header() {
 
           <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
             <Link
-              href="#recursos"
+              href="/#recursos"
               className="transition-colors hover:text-foreground/80 text-foreground/60"
             >
               Recursos
             </Link>
             <Link
-              href="#como-funciona"
+              href="/#como-funciona"
               className="transition-colors hover:text-foreground/80 text-foreground/60"
             >
               Como Funciona

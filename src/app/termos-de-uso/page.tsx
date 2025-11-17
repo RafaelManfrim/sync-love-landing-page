@@ -28,7 +28,7 @@ export default function TermsPage() {
             </div>
             <div className="mx-auto max-w-3xl">
               <div className="mb-8 flex items-center justify-center">
-                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-linear-to-br from-pink-500 to-rose-600">
+                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-linear-to-br from-red-500 to-red-600">
                   <FileText className="h-8 w-8 text-white" />
                 </div>
               </div>
@@ -57,8 +57,8 @@ export default function TermsPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-pink-100">
-                    <UserCheck className="h-5 w-5 text-pink-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-50">
+                    <UserCheck className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">1. Aceitação dos Termos</h2>
@@ -82,8 +82,8 @@ export default function TermsPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-rose-100">
-                    <Check className="h-5 w-5 text-rose-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-100">
+                    <Check className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">2. Elegibilidade</h2>
@@ -104,8 +104,8 @@ export default function TermsPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-pink-100">
-                    <Shield className="h-5 w-5 text-pink-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-50">
+                    <Shield className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">3. Conta e Segurança</h2>
@@ -131,8 +131,8 @@ export default function TermsPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-rose-100">
-                    <Check className="h-5 w-5 text-rose-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-100">
+                    <Check className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">4. Uso Aceitável</h2>
@@ -157,8 +157,8 @@ export default function TermsPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-pink-100">
-                    <FileText className="h-5 w-5 text-pink-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-50">
+                    <FileText className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">5. Conteúdo do Usuário</h2>
@@ -186,8 +186,8 @@ export default function TermsPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-rose-100">
-                    <Scale className="h-5 w-5 text-rose-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-100">
+                    <Scale className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">6. Propriedade Intelectual</h2>
@@ -211,8 +211,8 @@ export default function TermsPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-pink-100">
-                    <X className="h-5 w-5 text-pink-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-50">
+                    <X className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">7. Cancelamento e Suspensão</h2>
@@ -222,7 +222,7 @@ export default function TermsPage() {
                         das configurações do aplicativo. Após o cancelamento:
                       </p>
                       <ul className="ml-6 space-y-2 list-disc">
-                        <li>Seus dados serão permanentemente excluídos em até 30 dias</li>
+                        <li>Seus dados serão permanentemente excluídos</li>
                         <li>A vinculação com seu parceiro(a) será desfeita</li>
                         <li>Você perderá acesso a todos os dados compartilhados</li>
                       </ul>
@@ -239,8 +239,8 @@ export default function TermsPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-rose-100">
-                    <AlertTriangle className="h-5 w-5 text-rose-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-100">
+                    <AlertTriangle className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">8. Isenção de Garantias</h2>
@@ -268,8 +268,8 @@ export default function TermsPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-pink-100">
-                    <Shield className="h-5 w-5 text-pink-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-50">
+                    <Shield className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">9. Limitação de Responsabilidade</h2>
@@ -299,8 +299,8 @@ export default function TermsPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-rose-100">
-                    <Scale className="h-5 w-5 text-rose-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-100">
+                    <Scale className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">10. Indenização</h2>
@@ -325,8 +325,8 @@ export default function TermsPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-pink-100">
-                    <FileText className="h-5 w-5 text-pink-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-50">
+                    <FileText className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">11. Lei Aplicável e Jurisdição</h2>
@@ -345,8 +345,8 @@ export default function TermsPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-rose-100">
-                    <Check className="h-5 w-5 text-rose-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-100">
+                    <Check className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">12. Disposições Gerais</h2>
@@ -378,8 +378,8 @@ export default function TermsPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-pink-100">
-                    <FileText className="h-5 w-5 text-pink-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-50">
+                    <FileText className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">13. Contato</h2>
@@ -390,7 +390,7 @@ export default function TermsPage() {
                       </p>
                       <ul className="ml-6 space-y-2 list-disc">
                         <li>E-mail: contato@synclove.app</li>
-                        <li>Website: www.synclove.app/contato</li>
+                        {/* <li>Website: www.synclove.app/contato</li> */}
                       </ul>
                     </div>
                   </div>

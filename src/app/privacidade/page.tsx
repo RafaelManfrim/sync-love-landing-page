@@ -28,7 +28,7 @@ export default function PrivacyPage() {
             </div>
             <div className="mx-auto max-w-3xl">
               <div className="mb-8 flex items-center justify-center">
-                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-linear-to-br from-pink-500 to-rose-600">
+                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-linear-to-br from-red-500 to-red-600">
                   <Shield className="h-8 w-8 text-white" />
                 </div>
               </div>
@@ -57,8 +57,8 @@ export default function PrivacyPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-pink-100">
-                    <Database className="h-5 w-5 text-pink-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-50">
+                    <Database className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">1. Informações que Coletamos</h2>
@@ -91,8 +91,8 @@ export default function PrivacyPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-rose-100">
-                    <Eye className="h-5 w-5 text-rose-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-100">
+                    <Eye className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">2. Como Usamos suas Informações</h2>
@@ -116,8 +116,8 @@ export default function PrivacyPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-pink-100">
-                    <Lock className="h-5 w-5 text-pink-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-50">
+                    <Lock className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">3. Compartilhamento de Informações</h2>
@@ -152,8 +152,8 @@ export default function PrivacyPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-rose-100">
-                    <Shield className="h-5 w-5 text-rose-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-100">
+                    <Shield className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">4. Segurança dos Dados</h2>
@@ -176,8 +176,8 @@ export default function PrivacyPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-pink-100">
-                    <UserX className="h-5 w-5 text-pink-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-50">
+                    <UserX className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">5. Seus Direitos</h2>
@@ -211,8 +211,8 @@ export default function PrivacyPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-rose-100">
-                    <Database className="h-5 w-5 text-rose-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-100">
+                    <Database className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">6. Retenção de Dados</h2>
@@ -232,8 +232,8 @@ export default function PrivacyPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-pink-100">
-                    <Eye className="h-5 w-5 text-pink-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-50">
+                    <Eye className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">7. Cookies e Tecnologias Similares</h2>
@@ -252,8 +252,8 @@ export default function PrivacyPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-rose-100">
-                    <Shield className="h-5 w-5 text-rose-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-100">
+                    <Shield className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">8. Menores de Idade</h2>
@@ -272,8 +272,8 @@ export default function PrivacyPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-pink-100">
-                    <Database className="h-5 w-5 text-pink-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-50">
+                    <Database className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">9. Alterações nesta Política</h2>
@@ -293,8 +293,8 @@ export default function PrivacyPage() {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-rose-100">
-                    <Mail className="h-5 w-5 text-rose-600" />
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-100">
+                    <Mail className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
                     <h2 className="mb-2 text-2xl font-bold">10. Entre em Contato</h2>
@@ -304,8 +304,8 @@ export default function PrivacyPage() {
                         seus direitos, entre em contato conosco:
                       </p>
                       <ul className="ml-6 space-y-2 list-disc">
-                        <li>E-mail: privacidade@synclove.app</li>
-                        <li>Website: www.synclove.app/contato</li>
+                        <li>E-mail: contato@synclove.app</li>
+                        {/* <li>Website: www.synclove.app/contato</li> */}
                       </ul>
                     </div>
                   </div>

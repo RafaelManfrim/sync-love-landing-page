@@ -1,0 +1,17 @@
+{
+  "name": "Sync Love - Organize a vida a dois",
+  "short_name": "Sync Love",
+  "description": "O app perfeito para casais que querem compartilhar tarefas, gerenciar compras e organizar eventos juntos!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ef4444",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "372x372",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

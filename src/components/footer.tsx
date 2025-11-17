@@ -1,7 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Container } from "./container"
-import { Github, Instagram } from "lucide-react"
 import { Separator } from "@/components/ui/separator"
 
 export function Footer() {
@@ -31,17 +30,17 @@ export function Footer() {
             <h3 className="mb-4 text-sm font-semibold">Produto</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="#recursos" className="text-muted-foreground hover:text-foreground">
+                <Link href="/#recursos" className="text-muted-foreground hover:text-foreground">
                   Recursos
                 </Link>
               </li>
               {/* <li>
-                <Link href="#precos" className="text-muted-foreground hover:text-foreground">
+                <Link href="/#precos" className="text-muted-foreground hover:text-foreground">
                   Preços
                 </Link>
               </li> */}
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-foreground">
+                <Link href="/#download" className="text-muted-foreground hover:text-foreground">
                   Download
                 </Link>
               </li>
@@ -57,7 +56,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/termos" className="text-muted-foreground hover:text-foreground">
+                <Link href="/termos-de-uso" className="text-muted-foreground hover:text-foreground">
                   Termos de Uso
                 </Link>
               </li>
